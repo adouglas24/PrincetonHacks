@@ -1,4 +1,5 @@
 #approach inspired from https://medium.com/@kvnamipara/a-better-visualisation-of-pie-charts-by-matplotlib-935b7667d77f
+#generates the figures for algorithms -- the pie charts and rating scales
 import matplotlib.pyplot as plt
 
 def first_pie():
