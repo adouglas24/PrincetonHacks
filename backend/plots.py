@@ -75,9 +75,9 @@ def f():
     plt.close()
 
 def a_minus():
-    sizes = [80]
+    sizes = [80, 20]
 
-    colors = ['#00bf00']
+    colors = ['#00bf00', '#ffffff']
 
     plt.pie(sizes, colors = colors, startangle=90, pctdistance=0.85, shadow=True)
 
@@ -93,9 +93,9 @@ def a_minus():
 
 
 def b_plus():
-    sizes = [70]
+    sizes = [70, 30]
 
-    colors = ['#00bf00']
+    colors = ['#00bf00', '#ffffff']
 
     plt.pie(sizes, colors = colors, startangle=90, pctdistance=0.85, shadow=True)
 
@@ -111,9 +111,9 @@ def b_plus():
 
 
 def b_minus():
-    sizes = [50]
+    sizes = [50, 50]
 
-    colors = ['#00bf00']
+    colors = ['#00bf00', '#ffffff']
 
     plt.pie(sizes, colors = colors, startangle=90, pctdistance=0.85, shadow=True)
 
@@ -129,9 +129,9 @@ def b_minus():
 
 
 def d_plus():
-    sizes = [40]
+    sizes = [40, 60]
 
-    colors = ['#e60207']
+    colors = ['#e60207', '#ffffff']
 
     plt.pie(sizes, colors = colors, startangle=90, pctdistance=0.85, shadow=True)
 
