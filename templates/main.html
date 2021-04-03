@@ -10,14 +10,17 @@
         <title></title>
         <meta name="description" content="alGOAT: Public Algorithim Trading">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
     </head>
     <body>
         <main>
             <header>
                 <div class = "bar">
                     <nav>
-                        <img class="logo" href="/" src="./images/A-removebg-preview 1.svg" />
+                        <a href = "/"> 
+                            <img class="logo" href="/" src="/static/A-removebg-preview 1.svg" />
+                            </a>
+                        
                         <div class="links">
                             <a href="/about">About</a>
                             <a href="/selections">Selections</a>
@@ -34,7 +37,11 @@
                 <h1 class="hero__font">alGOAT</h1>
                 <h1 class="hero__font">Expert stock market
                     algorithims made easy</h1>
-                <button class="start"><b>Get Started</b></button>
+                
+                    <a href = "/selections"> 
+                        <button class="start" href="/selections"><b>Get Started</b></button>
+                        </a>
+                
             </div>
 
             

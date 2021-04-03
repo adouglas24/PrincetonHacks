@@ -23,7 +23,7 @@ html, body {
 }
 
 body {
-    background-image: url("/images/home-bg.4f18e6dc.svg");
+    background-image: url("imgs/home-bg.svg");
     background-repeat: no-repeat,repeat;
     background-size: 1750px;
     background-position: bottom;
