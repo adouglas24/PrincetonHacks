@@ -110,8 +110,8 @@ def b_plus():
     plt.close()
 
 
-def b_minus():
-    sizes = [50, 50]
+def b():
+    sizes = [65, 35]
 
     colors = ['#00bf00', '#ffffff']
 
@@ -124,12 +124,12 @@ def b_minus():
     plt.axis('equal')  
     plt.tight_layout()
 
-    plt.savefig("./images2/b_minus_raw")
+    plt.savefig("./images2/b_raw")
     plt.close()
 
 
-def d_plus():
-    sizes = [40, 60]
+def d():
+    sizes = [65, 35]
 
     colors = ['#e60207', '#ffffff']
 
@@ -142,7 +142,7 @@ def d_plus():
     plt.axis('equal')  
     plt.tight_layout()
 
-    plt.savefig("./images1/d_plus_raw")
+    plt.savefig("./images1/d_raw")
     plt.close()
 
 
@@ -158,6 +158,6 @@ a_minus()
 
 b_plus()
 
-b_minus()
+b()
 
-d_plus()
+d()
