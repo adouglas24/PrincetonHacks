@@ -74,6 +74,77 @@ def f():
     plt.savefig("./images2/f_raw")
     plt.close()
 
+def a_minus():
+    sizes = [80]
+
+    colors = ['#00bf00']
+
+    plt.pie(sizes, colors = colors, startangle=90, pctdistance=0.85, shadow=True)
+
+    centre_circle = plt.Circle((0,0),0.90,fc='white')
+    fig = plt.gcf()
+    fig.gca().add_artist(centre_circle)
+    # Equal aspect ratio ensures that pie is drawn as a circle
+    plt.axis('equal')  
+    plt.tight_layout()
+
+    plt.savefig("./images2/a_minus_raw")
+    plt.close()
+
+
+def b_plus():
+    sizes = [70]
+
+    colors = ['#00bf00']
+
+    plt.pie(sizes, colors = colors, startangle=90, pctdistance=0.85, shadow=True)
+
+    centre_circle = plt.Circle((0,0),0.90,fc='white')
+    fig = plt.gcf()
+    fig.gca().add_artist(centre_circle)
+    # Equal aspect ratio ensures that pie is drawn as a circle
+    plt.axis('equal')  
+    plt.tight_layout()
+
+    plt.savefig("./images1/b_plus_raw")
+    plt.close()
+
+
+def b_minus():
+    sizes = [50]
+
+    colors = ['#00bf00']
+
+    plt.pie(sizes, colors = colors, startangle=90, pctdistance=0.85, shadow=True)
+
+    centre_circle = plt.Circle((0,0),0.90,fc='white')
+    fig = plt.gcf()
+    fig.gca().add_artist(centre_circle)
+    # Equal aspect ratio ensures that pie is drawn as a circle
+    plt.axis('equal')  
+    plt.tight_layout()
+
+    plt.savefig("./images2/b_minus_raw")
+    plt.close()
+
+
+def d_plus():
+    sizes = [40]
+
+    colors = ['#e60207']
+
+    plt.pie(sizes, colors = colors, startangle=90, pctdistance=0.85, shadow=True)
+
+    centre_circle = plt.Circle((0,0),0.90,fc='white')
+    fig = plt.gcf()
+    fig.gca().add_artist(centre_circle)
+    # Equal aspect ratio ensures that pie is drawn as a circle
+    plt.axis('equal')  
+    plt.tight_layout()
+
+    plt.savefig("./images1/d_plus_raw")
+    plt.close()
+
 
 first_pie()
 
@@ -82,3 +153,11 @@ second_pie()
 a_plus()
 
 f()
+
+a_minus()
+
+b_plus()
+
+b_minus()
+
+d_plus()
