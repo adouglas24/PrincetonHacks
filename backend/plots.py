@@ -42,11 +42,11 @@ def second_pie():
 def a_plus():
     sizes = [100]
 
-    colors = ['#50FFB1']
+    colors = ['#00bf00']
 
     plt.pie(sizes, colors = colors, startangle=90, pctdistance=0.85, shadow=True)
 
-    centre_circle = plt.Circle((0,0),0.70,fc='white')
+    centre_circle = plt.Circle((0,0),0.90,fc='white')
     fig = plt.gcf()
     fig.gca().add_artist(centre_circle)
     # Equal aspect ratio ensures that pie is drawn as a circle
@@ -60,11 +60,11 @@ def a_plus():
 def f():
     sizes = [100]
 
-    colors = ['#ac3235']
+    colors = ['#e60207']
 
     plt.pie(sizes, colors = colors, startangle=90, pctdistance=0.85, shadow=True)
 
-    centre_circle = plt.Circle((0,0),0.70,fc='white')
+    centre_circle = plt.Circle((0,0),0.90,fc='white')
     fig = plt.gcf()
     fig.gca().add_artist(centre_circle)
     # Equal aspect ratio ensures that pie is drawn as a circle
