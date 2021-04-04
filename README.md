@@ -1,5 +1,5 @@
 # alGoat
-Made for HackPrinceton '21.
+Made for HackPrinceton '21 <https://devpost.com/software/algoat>
 
 ## Inspiration
 Over the past year, the field of investing has seen meteoritic growth. Individual retail investors now have serious influence over the stock market--as we all saw with GameStop. That being said, institutional investors have sophisticated technologies and approaches that the average retail investor could only dream of. We created alGOAT to help bridge that gap, empowering the everyday investor to have access to cutting-edge technologies.
