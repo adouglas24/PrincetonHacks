@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>alGOAT</title>
+  </head>
+  <body>
+
+    <!-- Bootstrap CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="/docs/4.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <header>
+        <div class = "bar">
+            <nav>
+                <a href = "/">
+                    <img class="logo" href="/" src="/static/A-removebg-preview 1.svg" />
+                    </a>
+
+                <div class="links">
+                    <a href="/about">About</a>
+                    <a href="/selections">Selections</a>
+                    <button class="loginButton" href="/login">Login</button>
+                </div>
+            </nav>
+        </div>
+      </header>
+
+        {% block content %}
+
+        {% endblock %}
+  </body>
+
+</html>
