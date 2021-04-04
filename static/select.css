@@ -84,6 +84,151 @@ nav {
     background-color: var(--accentHover);
 }
 
-.info {
-    grid-column: 3 / span 5;    
+.algos {
+    grid-column: 3 / span 1;    
+}
+
+.algos:hover {
+    cursor: pointer;
+}
+
+.two {
+    grid-column: 3 / span 1;  
+    grid-row: 4;
+}
+
+.two:hover {
+    cursor: pointer;
+}
+
+/* If you like this, be sure to ❤️ it. */
+.wrapper {
+    height: 100vh;
+    /* This part is important for centering the content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* End center */
+
+} 
+.wrapper a {
+display: inline-block;
+text-decoration: none;
+padding: 15px;
+background-color: #fff;
+border-radius: 3px;
+text-transform: uppercase;
+color: #585858;
+font-family: 'Roboto', sans-serif;
+}  
+.modal {
+visibility: hidden;
+opacity: 0;
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+background: rgba(77, 77, 77, .7);
+transition: all .4s;
+}
+
+.modal:target {
+visibility: visible;
+opacity: 1;
+}
+
+.modal__content {
+border-radius: 4px;
+position: relative;
+width: 1400px;
+max-width: 100%;
+background: #fff;
+padding: 1em 2em;
+}
+
+.modal__close {
+position: absolute;
+top: 10px;
+right: 10px;
+color: #585858;
+text-decoration: none;
+}
+
+.data1 {
+    width: 1200px;
+    height: auto;
+}
+
+.data2 {
+    width: 1200px;
+    height: auto;
+}
+
+.investdiv {
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+  }
+
+.invest {
+    text-align:center;
+}
+
+.investButton {
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: var(--accent);
+    padding: 12px 75px;
+    margin-top: 10px;
+    margin-left: 620px;
+    transition: var(--transition);
+    border-radius: 20px;
+    font-size: 13px;
+    color:white;
+}
+
+.investButton:hover {
+    background-color: var(--accentHover);
+}
+
+.input:focus {
+    background-color: var(--accent);
+}
+
+.input {
+    box-sizing: border-box;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.check {
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.success {
+    text-align:center;
+    font-family: "Lato", sans-serif;
+    padding-top: 0px;
+    font-weight: 700;
+    font-size: 4.375rem;
 }

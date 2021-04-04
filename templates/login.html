@@ -1,29 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="alGOAT: Public Algorithim Trading">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+    </head>
+    <body>
+        <main>
+            <header>
+                    <nav>
+                        <a href = "/"> 
+                            <img class="logo" href="/" src="/static/A-removebg-preview 1.svg" />
+                            </a>
+                        
+                        <div class="links">
+                            <a href="https://github.com/adouglas24/alGOAT" target="_blank">About</a>
+                            <a href="/selections">Selections</a>
+                            <a href="/login">
+                                <button class="loginButton" >Login</button>
+                            </a>
+                            
+                        </div>
+                    </nav>
+                    <h1>Heroku didn't let our login page work because of database magic nonsense :( </h1>
+                    <h1>At least it worked locally!</h1>
 
-<div class="container">
-<br />
-<br />
-{% if error %}
-{{error}}
-{% endif %}
-<br />
-<br />
+                
+            </header>
 
-  <h1>Log In</h1>
+            
 
-  <form method="post" action="{% url 'login' %}">
-  {% csrf_token %}
-
-  Email:
-  <br />
-  <input type="text" name="username"/>
-  <br />
-
-  Password:
-  <br />
-  <input type="password" name="password"/>
-  <br />
-  <br />
-
-  <input class="btn btn-primary" type="submit" value="Log In">
-  </form>
-</div>
+        </main>
+        <script src="" async defer></script>
+    </body>
+</html>

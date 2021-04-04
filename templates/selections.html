@@ -10,30 +10,87 @@
         <title></title>
         <meta name="description" content="alGOAT: Public Algorithim Trading">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel='stylesheet' href='https://codepen.io/denic/pen/YzyPzKG.css'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
         <link rel="stylesheet" href="{{ url_for('static',filename='select.css') }}">
+        
+
     </head>
     <body>
         <main>
             <header>
-                <div class = "bar">
-                    <nav>
-                        <a href = "/"> 
-                            <img class="logo" href="/" src="/static/A-removebg-preview 1.svg" />
-                            </a>
-                        <div class="links">
-                            <a href="/about">About</a>
-                            <a href="/selections">Selections</a>
-                            <button class="loginButton" href="/login">Login</a>
-                        </div>
-                    </nav>
-                </div>              
+                <nav>
+                    <a href = "/"> 
+                        <img class="logo" href="/" src="/static/A-removebg-preview 1.svg" />
+                        </a>
+                    <div class="links">
+                        <a href="https://github.com/adouglas24/alGOAT" target="_blank">About</a>
+                        <a href="/selections">Selections</a>
+                        <a href="/login">
+                            <button class="loginButton" >Login</button>
+                        </a>
+                    </div>
+                </nav>             
             </header>
 
-
             
+            
+            <a href="#demo-modal" class = "algos">
+                <img class="algos" src="/static/Full-card 1.svg" />
+            </a>
 
-        </main>
+            <a href="#demo-modal2" class = "two">
+                <img class="two" src="/static/Full-card 2.svg" />
+            </a>
+            
+                
+            
+            
+            <div id="demo-modal" class="modal">
+                <div class="modal__content">
+                    <img class="data1" src="/static/Frame.svg" />
+                    <div class="investdiv">
+                        <p class=invest>$  </p>
+                        <input min="0" class=input type="number">
+                    </div>
+                    <a href="#animation1">
+                        <button class="investButton"><b>Invest!</b></button>
+                    </a>
+                    
+                    <a href="#" class="modal__close">&times;</a>
+                </div>
+            </div>
+
+            <div id="animation1" class="modal">
+                <div class="modal__content">
+                    <lottie-player class=check src="https://assets8.lottiefiles.com/packages/lf20_pwppxjbo.json" background="transparent"  speed="0.8"  style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+                    <a href="#" class="modal__close">&times;</a>
+                    <h1 class=success>Successfully Invested!</h1>
+
+                </div>
+            </div>
+
+            <div id="demo-modal2" class="modal">
+                <div class="modal__content">
+                    <img class="data1" src="/static/Frame2.svg" />
+                    <div class="investdiv">
+                        <p class=invest>$  </p>
+                        <input min="0" class=input type="number">
+                    </div>
+                    <a href="#animation1">
+                        <button class="investButton"><b>Invest!</b></button>
+                    </a>
+                    
+                    <a href="#" class="modal__close">&times;</a>
+                </div>
+            </div>
+
+
         
+        </main>
         <script src="" async defer></script>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <script src='https://codepen.io/denic/pen/YzyPzKG.js'></script>
     </body>
 </html>

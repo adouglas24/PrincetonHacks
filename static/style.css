@@ -17,6 +17,8 @@
     padding: 0;
 }
 
+
+
 html, body {
     height: 100%;
     overflow: auto;
@@ -47,10 +49,6 @@ main {
     grid-template-rows: 25% 100px auto;
 }
 
-.bar {
-    grid-template-columns: minmax(60px, 1fr) repeat(6, minmax(50px, 190px)) minmax(60px, 1fr);
-    grid-template-rows: 25% 100px;
-}
 
 header {
     grid-column: 2 / span 6;
@@ -113,4 +111,11 @@ nav {
 
 .start:hover {
     background-color: var(--accentHover);
+}
+
+.ani {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;   
 }
